@@ -18,6 +18,15 @@
 #' }
 #'
 #' @source \url{http://www.spotify.com/}
+#'
+#' @examples
+#' if (require("dplyr")) {
+#'
+#'   data(spotify_playlists)
+#'
+#'   spotify_playlists %>% glimpse()
+#'
+#' }
 
 "spotify_playlists"
 
@@ -40,6 +49,15 @@
 #' }
 #'
 #' @source \url{http://www.wikipedia.com/}
+#'
+#' @examples
+#' if (require("dplyr")) {
+#'
+#'   data(wiki_hot_100s)
+#'
+#'   wiki_hot_100s %>% glimpse()
+#'
+#' }
 
 "wiki_hot_100s"
 
@@ -79,6 +97,15 @@
 #' }
 #'
 #' @source \url{https://developer.spotify.com/web-api/get-audio-features/}
+#'
+#' @examples
+#' if (require("dplyr")) {
+#'
+#'   data(spotify_track_data)
+#'
+#'   spotify_track_data %>% glimpse()
+#'
+#' }
 
 "spotify_track_data"
 
@@ -102,6 +129,15 @@
 #' }
 #'
 #' @source \url{http://www.genius.com/}
+#'
+#' @examples
+#' if (require("dplyr")) {
+#'
+#'   data(lyrics)
+#'
+#'   lyrics %>% glimpse()
+#'
+#' }
 
 "lyrics"
 

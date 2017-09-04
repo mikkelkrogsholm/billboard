@@ -41,4 +41,13 @@ spotify_track_data
 Using the playlists in the \link{spotify_playlists} data set, this data contains
 the features of all of the tracks on the playlists.
 }
+\examples{
+if (require("dplyr")) {
+
+  data(spotify_track_data)
+
+  spotify_track_data \%>\% glimpse()
+
+}
+}
 \keyword{datasets}

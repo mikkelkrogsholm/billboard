@@ -1,14 +1,14 @@
 Package: billboard
 Type: Package
-Title: Contains Data Of Billboard Hot 100 Songs
+Title: Contains Data of Billboard Hot 100 Songs
 Version: 0.1.0
 Date: 2017-09-03
 Author: Mikkel Freltoft Krogsholm
 Maintainer: Mikkel Freltoft Krogsholm <mikkel@56n.dk>
-Description: This is a data package, that contains data sets regarding songs on 
-    the Billboard Hot 100 list from 1960 to 2016. The data sets include the
-    ranks for the given year, musical features of a lot of the songs and lyrics
-    for several of the songs as well.
+Description: Contains data sets regarding songs on the Billboard Hot 100 list
+    from 1960 to 2016. The data sets include the ranks for the given year,
+    musical features of a lot of the songs and lyrics for several of the songs
+    as well.
 URL: https://github.com/mikkelkrogsholm/billboard
 BugReports: https://github.com/mikkelkrogsholm/billboard/issues
 License: MIT + file LICENSE
@@ -16,3 +16,7 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
 Depends: R (>= 2.10)
+Imports:
+    tibble
+Suggests:
+    dplyr

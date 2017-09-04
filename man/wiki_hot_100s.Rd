@@ -24,4 +24,13 @@ from Wikipedia from the urls 'https://en.wikipedia.org/wiki/Billboard_Year-End_H
 and then the year added. Example: https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_1960.
 One year has more than a 100 songs due to a tie.
 }
+\examples{
+if (require("dplyr")) {
+
+  data(wiki_hot_100s)
+
+  wiki_hot_100s \%>\% glimpse()
+
+}
+}
 \keyword{datasets}

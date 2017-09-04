@@ -26,4 +26,13 @@ that you find in \link{spotify_track_data}.
 \details{
 I was not possible to find playlists that had all 100 songs for all the years.
 }
+\examples{
+if (require("dplyr")) {
+
+  data(spotify_playlists)
+
+  spotify_playlists \%>\% glimpse()
+
+}
+}
 \keyword{datasets}

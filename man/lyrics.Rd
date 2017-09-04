@@ -23,4 +23,13 @@ A data set containing lyrics for songs on the Billboard Hot 100 over the past
 57 years. The lyrics were identified and collected by webscraping so there
 might be some errors and mistakes - have that in mind.
 }
+\examples{
+if (require("dplyr")) {
+
+  data(lyrics)
+
+  lyrics \%>\% glimpse()
+
+}
+}
 \keyword{datasets}
